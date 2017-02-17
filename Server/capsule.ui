@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>capsule</class>
+ <widget class="QMainWindow" name="capsule">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Time Capsule</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background:transparent;
+border-image:url(:/atqres_ico/clockhand.jpg)</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="pieceWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>541</width>
+      <height>341</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTableWidget 
+{background-color: transparent;
+border-image:url(images/pure_gray_7.png);}
+
+QScrollBar:vertical {
+    background: url(images/pure_lite_gray.png);
+    width: 0px;
+    margin: 0px 0 0px 0;
+}
+QScrollBar::handle:vertical {
+    background: rgb(195, 195, 195);
+    min-height: 30px;
+    margin: 0 0px 0 0px;
+    border-radius: 0px;
+    border: none;
+}
+
+QScrollBar:horizontal {
+    height: 0px;
+    margin: 0px 0 0px 0;
+}
+QScrollBar::handle:horizontal {
+    background: rgb(195, 195, 195);
+    min-width: 20px;
+    margin: 0px 0px 0px 0px;
+    border-radius: 0px;
+    border: none;
+}
+QHeaderView::section
+{
+border-image:url(:/atqres_ico/pure_gray_7.png);
+height:30px;
+spacing: 20px;
+background-color:rgb(39,49,58);
+color: white;
+
+text-align: right;
+font-family: Courier;
+font-size:12px;
+}</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="del">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>400</y>
+      <width>45</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:transparent;
+border-image:url(:/atqres_ico/minuslite.png)</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="add">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>400</y>
+      <width>45</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:transparent;
+border-image:url(:/atqres_ico/pluslite.png)</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>20</y>
+      <width>45</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:transparent;
+border-image:url(:/atqres_ico/cock_back.png)</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
