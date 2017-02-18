@@ -5,6 +5,7 @@ See video cast:
 http://v.youku.com/v_show/id_XMTYyODEwMDQ4NA==.html
 ## Usage: 
 The software comes both in Server & Client. The server can run as a single application, while Client serves as a light-weight app and may only work when Server's running.
+Currently we only support compilation on OS X, with Qt 5.5+.
 First put **storage.x** in your $HOME folder.
 To compile Server, open **AtQlas_alpha.pro** by Qt Creator in the **Server** folder, configure, and run.
 To compile Client, open **AtQlas_alpha.pro** by Qt Creator in the **Client** folder, configure and run. Make sure that Server is running first.
