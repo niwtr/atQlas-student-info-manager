@@ -1,0 +1,242 @@
+[user]
+username:2014,
+passwd:111,
+pty:ADMIN_PTY
+[\user]
+[user]
+username:admin,
+passwd:admin,
+pty:ADMIN_PTY
+[\user]
+[lesson]
+lid:10000,
+name:Java Programming Language,
+credit:2,
+grade:2014,
+optp:yes
+[\lesson]
+[lesson]
+lid:10001,
+name:C++ Programming Language,
+credit:2,
+grade:2014,
+optp:yes
+[\lesson]
+[lesson]
+lid:10002,
+name:Lisp Programming Language,
+credit:4,
+grade:2014,
+optp:no
+[\lesson]
+[lesson]
+lid:10003,
+name:Scheme Programming Language,
+credit:2,
+grade:2014,
+optp:no
+[\lesson]
+[lesson]
+lid:10004,
+name:Compiler Machine,
+credit:4,
+grade:2014,
+optp:yes
+[\lesson]
+[lesson]
+lid:10005,
+name:Mathematics,
+credit:5,
+grade:2014,
+optp:no
+[\lesson]
+[lesson]
+lid:10006,
+name:Introduction to Algorithm,
+credit:3,
+grade:2014,
+optp:yes
+[\lesson]
+[lesson]
+lid:10007,
+name:Electronic Basis,
+credit:4,
+grade:2014,
+optp:yes
+[\lesson]
+[student]
+sid:2014000000,
+name:Wang Hai,
+school:cs,
+class:100,
+lessons:{
+10000:0,
+10001:0,
+10004:0,
+10006:0,
+10007:0,
+}
+[\student]
+[student]
+sid:2014000001,
+name:Wang Gang,
+school:cs,
+class:101,
+lessons:{
+10000:0,
+10001:0,
+10004:0,
+10006:0,
+10007:0,
+}
+[\student]
+[student]
+sid:2014000002,
+name:Li Hong,
+school:cs,
+class:100,
+lessons:{
+10000:0,
+10001:0,
+10004:0,
+10006:0,
+10007:0,
+}
+[\student]
+[student]
+sid:2014000003,
+name:Hai Lang,
+school:cs,
+class:101,
+lessons:{
+10000:0,
+10001:0,
+10004:0,
+10006:0,
+10007:0,
+}
+[\student]
+[student]
+sid:2014000004,
+name:Li Bin,
+school:cs,
+class:101,
+lessons:{
+10000:0,
+10001:0,
+10004:0,
+10006:0,
+10007:0,
+}
+[\student]
+[student]
+sid:2014000005,
+name:Li Long,
+school:cs,
+class:100,
+lessons:{
+10000:0,
+10001:0,
+10004:0,
+10006:0,
+10007:0,
+}
+[\student]
+[student]
+sid:2014000006,
+name:Ma Rong,
+school:ee,
+class:110,
+lessons:{
+10000:0,
+10001:0,
+10004:0,
+10006:0,
+10007:0,
+}
+[\student]
+[student]
+sid:2014000007,
+name:Ma Gang,
+school:ee,
+class:110,
+lessons:{
+10000:0,
+10001:0,
+10004:0,
+10006:0,
+10007:0,
+}
+[\student]
+[student]
+sid:2014000008,
+name:Li Hong,
+school:ee,
+class:110,
+lessons:{
+10000:0,
+10001:0,
+10004:0,
+10006:0,
+10007:0,
+}
+[\student]
+[student]
+sid:2014000009,
+name:Liu Li,
+school:ee,
+class:111,
+lessons:{
+10000:0,
+10001:0,
+10004:0,
+10006:0,
+10007:0,
+}
+[\student]
+[student]
+sid:2014000010,
+name:Li Xiang,
+school:ee,
+class:111,
+lessons:{
+10000:0,
+10001:0,
+10004:0,
+10006:0,
+10007:0,
+}
+[\student]
+[student]
+sid:2014000011,
+name:Liu Hong,
+school:ee,
+class:111,
+lessons:{
+10000:0,
+10001:0,
+10004:0,
+10006:0,
+10007:0,
+}
+[\student]
+[teacher]
+tid:1000,
+name:Jack Smith,
+school:cs
+[\teacher]
+[teacher]
+tid:1001,
+name:Li Jun,
+school:cs
+[\teacher]
+[teacher]
+tid:1002,
+name:Ma Li,
+school:ee
+[\teacher]
+[teacher]
+tid:1003,
+name:Liu hong,
+school:ee
+[\teacher]

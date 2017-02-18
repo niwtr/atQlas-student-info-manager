@@ -1,6 +1,7 @@
 #include "TIME_MACHINE.h"
 #include <QFileDialog>
 #include <functional>
+#include <cstdlib>
 #include "account.h"
 #include "algorithm"
 #define __XOMPILER__
@@ -994,16 +995,19 @@ void ::X::filter_comma(symb &block, bool replace_by_spacep) {
 void ::X::TIME_MACHINE::load_and_compile(){
     vector<string> vs;
     std::ifstream ifs;
-    ifs.open("./storage.x");
+
+    auto file_dir=string(getenv("HOME"))+"/storage.x";
+
+    ifs.open(file_dir);
     if(not ifs.is_open()){
         output<<"cannot open file"<<endl;
         output<<"Creating new file: storage.x"<<endl;
 
         std::ofstream ofs;
-        ofs.open("./storage.x");
+        ofs.open(file_dir);
         if(not ofs.is_open()){
-            output<<"Cannot create file: storage.x"<<endl;
-            exit(1);
+            std::cout<<"Cannot create file: storage.x"<<endl;
+            exit(22);
         }
         return ;
     }
@@ -1107,7 +1111,8 @@ void ::X::TIME_MACHINE::load_and_compile(){
 
 void TIME_MACHINE::dump_to_xfile() {
     std::ofstream ofs;
-    ofs.open("./storage.x");
+    auto file_dir=string(getenv("HOME"))+"/storage.x";
+    ofs.open(file_dir);
     if(not ofs.is_open()){
         cout<<"cannot open file"<<endl;
         return;
