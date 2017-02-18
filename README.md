@@ -24,6 +24,7 @@ pty:ADMIN_PTY
 **Elegant and Neat user interface**
 atQlas is your fancy student information management database.
 ![](https://github.com/niwtr/atQlas-student-info-manager/blob/master/screenshot/1.gif)
+
 **Runtime Instruction Compiler (Xompiler)**
 Use code to finish your boring jobs.
 Even loaded with error warning!
@@ -33,9 +34,11 @@ for student that {grade:14} do add-lesson that {grade:14}
 [\do]`
 adds every courses that satisfies grade=2014 to all student that is in grade 2014.
 ![](https://github.com/niwtr/atQlas-student-info-manager/blob/master/screenshot/2.png)
+
 **Fuzzy Search**
 Built-in wildcards for better and precise searching instructions. You may even use the same instruction for **X Macro**.
 ![](https://github.com/niwtr/atQlas-student-info-manager/blob/master/screenshot/6.png)
+
 **Time Machine**
 Every operations & instructions you made in atQlas are compiled automagically into runtime C++ code that is stored continuously in memory, which means you can trace back to any point of time after you boot the software. Every actions you perform in **the past** can influence your future. So take care.
 We even let you use X Macro in the past time!
